@@ -1,0 +1,47 @@
+body{
+    background-color: #6943FF;
+    font-family: Inter;
+    color:#FFFFFF ;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    font-weight:bolder;
+}
+#convert{
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: 10px 22px;
+    margin: 15px;
+    font-size: 16px;
+}
+#valueToConvert{
+    background-color:#6943FF ;
+    color: #FFFFFF;
+    border-color: #B295FF;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 80px;
+    height: 60px;
+    font-size:58px ;
+    font-weight:bolder;
+}
+h3{
+    color: #CCC1FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    background-color: #1F2937;
+    padding: 36px;
+}
+#length,#mass,#volume{
+    background-color: #273549;
+    margin-right:25 ;
+    margin-left:25 ;
+    font-weight: normal;
+    font-size: 14px;
+}

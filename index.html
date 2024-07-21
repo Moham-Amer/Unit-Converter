@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <!-- to insert Inter font -->
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+ </head>
+ <body>
+    <h1>Metric/Imperial Unit Conversion</h1>
+    <input type="text" id="valueToConvert">
+    <br>
+    <button id="convert">Convert</button>
+    <div class="container">
+     <div id="length">
+        <h3>Length (Meter/Feet)</h3>
+        <span id="lengthSpan"></span>
+     </div>
+     <div id="volume">
+        <h3>Volume (Liters/Gallons)</h3>
+        <span id="volumeSpan"></span>
+     </div>
+     <div id="mass">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <span id="massSpan"></span>
+     </div>
+    </div>
+    <script src="index.js"></script>
+ </body>
+</html>
